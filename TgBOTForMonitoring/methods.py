@@ -79,8 +79,8 @@ def commandStart(message, parameter):
             sendTextMessage(chat_id, "Спасибо за регистрацию " +
                 "напишите /help для информации")
         else:
-            sendTextMessage(chat_id, "Please provide a valid password. " +
-                "Type /start <password> to sign in.")
+            sendTextMessage(chat_id, "Укажите верный пароль. " +
+                "Напишите /start <ваш пароль> для входа.")
 
 def commandStop(message):
     chat_id = message["chat"]["id"]
